@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "hope",
+    "slug": "hope",
+    "version": "1.0.0",
+    "privacy": "public",
+    "sdkVersion": "38.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splashiconpng.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/splashiconpng.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.studying.hopeapk",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
